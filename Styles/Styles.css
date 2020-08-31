@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.boxProductFound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #042f66;
+}
+
+.cardProduct {
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 3px;
+  background: #1979a9;
+  color: aliceblue;
+  width: 300px;
+  height: 430px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.cardProduct:hover {
+  background-color: aliceblue;
+  color: darkblue;
+}
+
+body {
+  background-color: white;
+}
+
+#employeeTitle {
+  text-align: center;
+}
+
+.createNewProduct {
+  margin-left: 35%;
+  background: #042f66;
+  opacity: 0.9;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  width: 380px;
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+input {
+  border-radius: 6px;
+}
+
+.boxNameProduct,
+.boxDescriptionProduct,
+.boxBasePrice,
+.boxTaxRate,
+.boxProductstatus,
+.boxInvQuantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+#descriptionProduct {
+  width: 300px;
+}
+
+#nameProduct,
+#basePrice,
+#taxtRate,
+#productStatus,
+#invQuantity {
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.boxBtnCreateProduct {
+  width: 410px;
+  opacity: 0.9;
+  background: #042f66;
+  padding-bottom: 30px;
+  margin-left: 35%;
+}
+
+.btnCreateProduct,
+.btnDeleteProduct,
+.btnFindProduct,
+.btnAllProduct {
+  width: 120px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  background: #80b7ff;
+  border-radius: 6px;
+  margin-left: 35%;
+}
+
+.btnCreateProduct:hover,
+.btnDeleteProduct:hover,
+.btnFindProduct:hover,
+.btnAllProduct:hover {
+  background: #0d5dc5;
+  color: white;
+}
+
+.handlerProducts {
+  opacity: 0.9;
+  background: #042f66;
+  width: 410px;
+  margin-left: 35%;
+}
+
+.boxDeleteProduct,
+.boxFindProduct,
+.boxBtnAllProduct {
+  font-family: Roboto;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 30px;
+}
+
+#findProduct,
+#deleteProduct {
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.resultsSection {
+  opacity: 0.9;
+}
+
+.login {
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 38%;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 10px;
+  background: #042f66;
+  color: white;
+  width: 300px;
+}
+
+.boxUsername,
+.boxPassword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 180px;
+  margin-left: 60px;
+}
+
+.userType {
+  width: 140px;
+  height: 20px;
+}
+
+.btnSubmit {
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  font-size: 18px;
+  padding: 8px;
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.btnSubmit:hover {
+  background: #0d5dc5;
+  color: white;
+}
+
+.anchorSignUp {
+  color: white;
+}
+
+.anchorSignUp:hover {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.btnLogOut {
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 90%;
+  text-align: center;
+  width: 80px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.btnLogOut:hover {
+  background-color: crimson;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.SignUp {
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 38%;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 10px;
+  background: #042f66;
+  color: white;
+  width: 300px;
+}
+
+.boxName,
+.boxUsername,
+.boxPassword,
+.boxConfirmedPassword {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 180px;
+  margin-left: 60px;
+}
+
+.btnSignUp {
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  font-size: 18px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.btnSignUp:hover {
+  background: #0d5dc5;
+  color: white;
+}
+
+.adminSection {
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 38%;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 10px;
+  background: #042f66;
+  color: white;
+  width: 300px;
+}
+
+.boxModifyStatus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 180px;
+  margin-left: 60px;
+}
+
+#inputStatus,
+#employeeStatus {
+  border-radius: 6px;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.btnModifyStatus {
+  border: none;
+  border-radius: 6px;
+  width: 140px;
+  font-size: 18px;
+  padding: 8px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.btnModifyStatus:hover {
+  background: #0d5dc5;
+  color: white;
+}
+
+.boxShowAllProducts {
+  margin: 10px;
+}
+
+.boxTitle {
+  margin-left: 43%;
+}
+
+.btnShowAllProducts,
+.btnAddItem {
+  margin-bottom: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  color: white;
+  background-color: #0c51ac;
+}
+
+.btnShowAllProducts:hover,
+.btnAddItem:hover {
+  color: aliceblue;
+  font-weight: 600;
+  background-color: #0d5dc5;
+}
+/*# sourceMappingURL=Styles.css.map */

@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    //rgb(6, 65, 141);
+}
+
+#employeeTitle {
+    text-align: center;
+}
+
+.createNewProduct {
+    margin-left: 35%;
+    background: rgb(4, 47, 102);
+    opacity: 0.9;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 380px;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    //text-align: center;
+}
+
+input {
+    border-radius: 6px;
+}
+
+.boxNameProduct,
+.boxDescriptionProduct,
+.boxBasePrice,
+.boxTaxRate,
+.boxProductstatus,
+.boxInvQuantity {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#descriptionProduct {
+    width: 300px;
+}
+
+#nameProduct,
+#basePrice,
+#taxtRate,
+#productStatus,
+#invQuantity {
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.boxBtnCreateProduct {
+    width: 410px;
+    opacity: 0.9;
+    background: rgb(4, 47, 102);
+    padding-bottom: 30px;
+    margin-left: 35%;
+}
+
+.btnCreateProduct,
+.btnDeleteProduct,
+.btnFindProduct,
+.btnAllProduct {
+    width: 120px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background: rgb(128, 183, 255);
+    border-radius: 6px;
+    margin-left: 35%;
+}
+
+.btnCreateProduct:hover,
+.btnDeleteProduct:hover,
+.btnFindProduct:hover,
+.btnAllProduct:hover {
+    background: rgb(13, 93, 197);
+    color: white;
+}
+
+.handlerProducts {
+    opacity: 0.9;
+    background: rgb(4, 47, 102);
+    width: 410px;
+    margin-left: 35%;
+}
+
+.boxDeleteProduct,
+.boxFindProduct,
+.boxBtnAllProduct {
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#findProduct,
+#deleteProduct {
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.resultsSection {
+    opacity: 0.9;
+}

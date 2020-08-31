@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Menu</title>
+    <link rel="stylesheet" href="../Styles/Styles.css">
+
+</head>
+
+<body>
+    <div class="boxBtnLogOut">
+        <button class="btnLogOut">Log out</button>
+    </div>
+    <section class="adminSection">
+        <div class="signUpEmployee">
+            <h2>Admin Session</h2>
+            <div class="boxSignUpTitle">
+                <h3 class="signUpTitle">Register a new employee</h3>
+            </div>
+            <div class="boxName">
+                <label for="name" class="nameTag">Name </label>
+                <input type="text" id="name"> </input>
+            </div>
+            <div class="boxUsername">
+                <label for="username" class="usernameTag">Username </label>
+                <input type="text" id="username"> </input>
+            </div>
+            <div class="boxPassword">
+                <label for="password" class="passwordTag">Password </label>
+                <input type="password" id="password">
+            </div>
+            <div class="boxConfirmedPassword">
+                <label for="confirmedPassword" class="confirmedPasswordTag">Confirm Password</label>
+                <input type="password" id="confirmedPassword">
+            </div>
+
+            <div class="boxOutputValidation">
+                <h4 id="outputValidation"></h4>
+            </div>
+        </div>
+
+        <div class="boxBtnSignUp">
+            <button class="btnSignUp">Sign up</button>
+        </div>
+
+        <div class="boxModifyStatus">
+            <h3 class="modifyStatus">Modify Employee Status</h3>
+            <input type="text" id="inputStatus" placeholder="Employee username">
+            <select name="status" id="employeeStatus">
+                <option class="status">--</option>
+                <option value="1" class="Status">Active</option>
+                <option value="2" class="status">Blocked</option>
+            </select>
+            <button class="btnModifyStatus">Modify Status</button>
+        </div>
+
+    </section>
+
+    <script type="module" src="../Scripts/Frontend/Handler-admin.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</body>
+
+</html>

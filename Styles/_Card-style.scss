@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.boxProductFound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(4, 47, 102);
+}
+
+.cardProduct {
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    background: rgb(25, 121, 169);
+    color: aliceblue;
+    width: 300px;
+    height: 430px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.cardProduct:hover {
+    background-color: aliceblue;
+    color: darkblue;
+}

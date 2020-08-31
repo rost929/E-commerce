@@ -1,8 +1,6 @@
-let outputValidationElement = document.querySelector("#outputValidation");
-
 /**
  * @method validateNonEmptyField
- * @description 
+ * @description  Validates if exists empty fields or not
  * @param {} 
  * @returns {boolean}
  */
@@ -13,22 +11,21 @@ export const validateNonEmptyField = (name, username, password, passConfirmed) =
         infoValidated = validateSamePassword(password, passConfirmed);
         return infoValidated;
     }
-    outputValidationElement.innerHTML = "There empty field, please fill the form completely";
+    swal("There is something missing ", "Please fill all the fields", "error");
     return infoValidated;
 }
 
 
 /**
  * @method validateSamePassword
- * @description 
+ * @description Validates if passwords are the same
  * @param {} 
  * @returns {boolean}
  */
 const validateSamePassword = (password, passConfirmed) => {
     if (password === passConfirmed) {
-        outputValidationElement.innerHTML = "";
         return true;
     }
-    outputValidationElement.innerHTML = "Passwords do not match";
+    swal("Passwords do not match", "Please check your info", "error");
     return false;
 }

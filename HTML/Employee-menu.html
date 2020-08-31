@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Menu</title>
+    <link rel="stylesheet" href="../Styles/Styles.css">
+</head>
+
+<body>
+    <div class="boxBtnLogOut">
+        <button class="btnLogOut">Log out</button>
+    </div>
+    <section class="creationSection">
+        <form action="" class="createNewProduct">
+            <h2 id="employeeTitle">Employee Session</h2>
+            <h3 class="createTitle">Create a new product</h3>
+            <div class="boxNameProduct">
+                <label for="nameProduct" class="nameProductTag">Name</label>
+                <input type="text" id="nameProduct" required="required">
+            </div>
+            <div class="boxDescriptionProduct">
+                <label for="descriptionProduct" class="descriptionProductTag">Description</label>
+                <textarea name="description" id="descriptionProduct" cols="30" rows="6" maxlength="280" placeholder="Write something about the product" required="required"></textarea>
+            </div>
+            <div class="boxBasePrice">
+                <label for="basePrice" class="basePriceTag">Base Price</label>
+                <input type="number" id="basePrice" min="0" required="required">
+            </div>
+            <div class="boxTaxRate">
+                <label for="taxtRate" class="taxRateTag">Tax Rate</label>
+                <input type="number" id="taxtRate" min="0" max="1" step="any" required="required">
+            </div>
+
+            <div class="boxProductstatus">
+                <label for="productStatus" class="statusTag">Product Status</label>
+                <select name="status" id="productStatus">
+                    <option class="status">--</option>
+                    <option value="1" class="Status">Publicado</option>
+                    <option value="2" class="status">Borrador</option>
+                </select>
+            </div>
+
+            <div class="boxInvQuantity">
+                <label for="invQuantity" class="invQuantityTag">Inventory Quantity</label>
+                <input type="number" id="invQuantity" min="1" required="required">
+            </div>
+
+        </form>
+
+        <div class="boxBtnCreateProduct">
+            <input type="submit" class="btnCreateProduct" value="Create Product">
+        </div>
+    </section>
+
+    <section class="handlerProducts">
+        <div class="boxDeleteProduct">
+            <h2 class="deleteProductTitle">Delete product by name</h2>
+            <input type="text" id="deleteProduct">
+            <button class="btnDeleteProduct">Delete Product</button>
+        </div>
+
+        <div class="boxFindProduct">
+            <h2 class="findProductTitle">Find product by name</h2>
+            <input type="text" id="findProduct">
+            <button class="btnFindProduct">Find Product</button>
+        </div>
+
+        <div class="boxBtnAllProduct">
+            <h2 class="getAllProductsTitle">Get all Products</h2>
+            <button class="btnAllProduct">Get all products</button>
+        </div>
+    </section>
+
+    <section class="resultsSection">
+        <div class="boxProductFound">
+            <div class="cardProduct">
+                <H3 class="nameProduct">Xiaomi Redmi note 8 </H3>
+                <div class="boxDescription">
+                    <p class="descriptionProduct">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur nemo dicta quisquam accusantium delectus, quis eaque amet molestiae autem officia inventore voluptatibus, iure vero asperiores est nobis aut quaerat laudantium!</p>
+                </div>
+                <div class="detailProduct">
+                    <h3 class="basePrice">Base Price : USD 300</h3>
+                    <h3 class="taxRate">Tax Rate : 0.1 </h3>
+                    <h3 class="productStatus">ProductStatus : Pulicado</h3>
+                    <h3 class="inventory">Inventory Quantity : 3 units</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script type="module" src="/Scripts/Frontend/Create-Product.js"></script>
+<script type="module" src="/Scripts/Frontend/Handler-Product.js"></script>
+<script type="module" src="/Scripts/Frontend/Markup/Mark-up.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</html>

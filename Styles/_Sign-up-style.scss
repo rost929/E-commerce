@@ -1,0 +1,41 @@
+.SignUp {
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 38%;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 10px;
+    background: rgb(4, 47, 102);
+    color: white;
+    width: 300px;
+}
+
+.boxName,
+.boxUsername,
+.boxPassword,
+.boxConfirmedPassword {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.btnSignUp {
+    border: none;
+    border-radius: 6px;
+    width: 90px;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.btnSignUp:hover {
+    background: rgb(13, 93, 197);
+    color: white;
+}

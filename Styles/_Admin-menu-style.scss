@@ -1,0 +1,46 @@
+.adminSection {
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 38%;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 10px;
+    background: rgb(4, 47, 102);
+    color: white;
+    width: 300px;
+}
+
+.boxModifyStatus {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-left: 60px;
+}
+
+#inputStatus,
+#employeeStatus {
+    border-radius: 6px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.btnModifyStatus {
+    border: none;
+    border-radius: 6px;
+    width: 140px;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.btnModifyStatus:hover {
+    background: rgb(13, 93, 197);
+    color: white;
+}
